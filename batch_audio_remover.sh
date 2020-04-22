@@ -2,8 +2,7 @@
 
 # Purpose - removing audio from multiple files in a folder
 # TBD - selection of tracks with language name and not by track id. In the existing case track id is an input which is found by using mkvinfo.
-# Use the script carefully - I ran the program over a file to remove track X but the file did not have audio track X. It deleted the only track which was avaialble.
-
+# WARNING Use the script carefully - program can delete the any other track if the track id specified is not available
 # verification of the command & default header message
 if [ $# -ne 3 ]
 then
